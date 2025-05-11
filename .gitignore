@@ -1,0 +1,32 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore MATLAB/Simulink generated files
+*.asv
+*.m~
+*.slxc
+*.slx~
+*.mdl~
+*.autosave
+
+# Ignore build/output folders
+build/
+dist/
+*.exe
+*.out
+*.log
+*.obj
+*.mex*
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
